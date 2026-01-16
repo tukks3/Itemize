@@ -20,8 +20,8 @@ CORS(
     app,
     resources={r"/api/*": {
         "origins": [
-            "https://your-frontend.vercel.app",
-            "https://yourdomain.com"
+            "http://itemize-git-main-tukks3s-projects.vercel.app",
+            "http://localhost:5173"
         ]
     }}
 )
