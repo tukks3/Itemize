@@ -55,6 +55,9 @@
 	border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
+.r-table_body_rows td {
+	vertical-align: middle;
+}
 
 .r-table_item_title {
 	justify-items: center;
@@ -63,13 +66,13 @@
 
 
 .r-table_item_img_container {
-	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 
 .table_item_img {
 	height: 70px;
 	width: 70px;
+	vertical-align: middle;
 }
 
 
@@ -97,7 +100,7 @@
 }
 
 .r-good_against_row img {
-	display:block;
+	display: block;
 	height: 80px;
 	width: 80px;
 }
