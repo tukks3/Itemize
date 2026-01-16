@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import{ useNavigate } from "react-router-dom";
+ 
+import{ apiUrl } from "../components/Api";
 
 
 function AllChampsGrid() {
@@ -7,7 +9,7 @@ function AllChampsGrid() {
     const [icons, setIcons] = useState([]);
 
     useEffect(() => {
-        fetch("/api/listAllChamps")
+        fetch(apiUrl("/api/listAllChamps"))
         .then(r => r.json())
         .then(data => setIcons(data.icons))
         .catch(console.error);

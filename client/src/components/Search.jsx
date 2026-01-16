@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
+import{ apiUrl } from "../components/Api";
+
 function Search({ result, setResult }) {
     const navigate = useNavigate();
     const [error, setError] = useState(null);
@@ -9,13 +11,13 @@ function Search({ result, setResult }) {
         e.preventDefault();
         const champName = e.target.elements.champName.value;
 
-        fetch("/api/search", {
+        fetch(apiUrl("/api/search", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ champName }),
-        })
+        }))
         .then(res => res.json())
         .then((data) => {
             if (data.error) {

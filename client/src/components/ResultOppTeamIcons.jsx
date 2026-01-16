@@ -1,6 +1,9 @@
+import{ apiUrl } from "../components/Api";
+
+
 function ResultOppTeamIcons({ oppTeam }) {
     const urls = oppTeam.map(opp =>
-        opp ? `/api/champ_icons/${opp}.png` : null
+        opp ? apiUrl(`/api/champ_icons/${opp}.png`) : null
     );
 
     return (

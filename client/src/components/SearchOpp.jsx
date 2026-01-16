@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
+import{ apiUrl } from "../components/Api";
+
 function SearchOpp({ result, setResult, error, setError }) {
     const oppTeam = result.opponents;
     const [searchParams] = useSearchParams();
@@ -13,7 +15,7 @@ function SearchOpp({ result, setResult, error, setError }) {
 
         e.target.reset();
 
-        fetch("/api/validTeam", {
+        fetch(apiUrl("/api/validTeam", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -21,7 +23,7 @@ function SearchOpp({ result, setResult, error, setError }) {
                 oppTeam,
                 oppName,
             }),
-        })
+        }))
             .then(async (res) => {
                 const data = await res.json();
                 if (!res.ok) throw new Error(data.error || "Request failed");

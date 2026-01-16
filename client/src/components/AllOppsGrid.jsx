@@ -1,6 +1,8 @@
 import { useEffect, useState, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 
+import{ apiUrl } from "../components/Api";
+
 
 function AllOppsGrid({ result, setResult, error, setError }) {
 
@@ -11,7 +13,7 @@ function AllOppsGrid({ result, setResult, error, setError }) {
     const inFlightRef = useRef(false);
 
     useEffect(() => {
-        fetch("/api/listAllChamps")
+        fetch(apiUrl("/api/listAllChamps"))
             .then(r => r.json())
             .then(data => setIcons(data.icons))
             .catch(console.error);
@@ -28,7 +30,7 @@ function AllOppsGrid({ result, setResult, error, setError }) {
         const oppId = url.split("/").at(-1).replace(".png", "");
 
         try {
-            const res = await fetch("/api/validTeam", {
+            const res = await fetch(apiUrl("/api/validTeam", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -36,7 +38,7 @@ function AllOppsGrid({ result, setResult, error, setError }) {
                     oppTeam: result.opponents,
                     oppName: oppId,
                 }),
-            });
+            }));
 
             const data = await res.json();
             if (!res.ok) throw new Error(data.error || "Request failed");
