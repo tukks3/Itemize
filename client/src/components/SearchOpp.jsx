@@ -15,7 +15,7 @@ function SearchOpp({ result, setResult, error, setError }) {
 
         e.target.reset();
 
-        fetch(apiUrl("/api/validTeam", {
+        fetch(apiUrl("/api/validTeam"), {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -23,7 +23,7 @@ function SearchOpp({ result, setResult, error, setError }) {
                 oppTeam,
                 oppName,
             }),
-        }))
+        })
             .then(async (res) => {
                 const data = await res.json();
                 if (!res.ok) throw new Error(data.error || "Request failed");

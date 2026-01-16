@@ -11,13 +11,13 @@ function Search({ result, setResult }) {
         e.preventDefault();
         const champName = e.target.elements.champName.value;
 
-        fetch(apiUrl("/api/search", {
+        fetch(apiUrl("/api/search"), {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ champName }),
-        }))
+        })
         .then(res => res.json())
         .then((data) => {
             if (data.error) {
