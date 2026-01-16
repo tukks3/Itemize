@@ -68,7 +68,7 @@ function AllOppsGrid({ result, setResult, error, setError }) {
             <div className="grid-champ_container">
                 {icons.map((url) => (
                     <button key={url} className="grid-champ_icon" onClick={() => handleClick(url)}>
-                        <img src={apiurl(url)} loading="lazy" width={48} height={48} alt="opp icon" />
+                        <img src={apiUrl(url)} loading="lazy" width={48} height={48} alt="opp icon" />
                     </button>
                 ))}
             </div>
