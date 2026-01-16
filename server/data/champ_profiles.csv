@@ -1,0 +1,173 @@
+id,name,alias,positions,damageType,attackType,championTags,cdRoles,wikiRoles,allyHealing,attackSpeed,crit,hybridAsOh
+1,annie,annie,['middle'],kMagic,ranged,"['summon', 'burst']","['mage', 'support']",['burst'],False,False,False,False
+2,olaf,olaf,['top'],kPhysical,melee,"['duelist', 'self healing']","['fighter', 'tank']",['diver'],False,True,False,False
+3,galio,galio,['middle'],kMagic,melee,"['battlecaster', 'crowd control']","['tank', 'mage']",['warden'],False,False,True,False
+4,twisted fate,twistedfate,"['middle', 'bottom']",kMagic,ranged,"['burst', 'auto-attack']","['mage', 'marksman']",['burst'],False,True,True,True
+5,xin zhao,xinzhao,['jungle'],kPhysical,melee,"['', '']","['fighter', 'tank']",['diver'],False,True,True,True
+6,urgot,urgot,['top'],kPhysical,ranged,"['duelist', 'sustained damage']","['fighter', 'tank']",['juggernaut'],False,False,False,False
+7,leblanc,leblanc,['middle'],kMagic,ranged,"['burst', 'mobile']","['assassin', 'mage']","['burst', 'assassin']",False,False,False,False
+8,vladimir,vladimir,['middle'],kMagic,ranged,"['self healing', 'battlecaster']","['mage', 'fighter']",['battlemage'],False,False,False,False
+9,fiddlesticks,fiddlesticks,['jungle'],kMagic,ranged,"['self healing', 'aoe']","['mage', 'support']",['specialist'],False,False,False,False
+10,kayle,kayle,['top'],kMagic,melee,"['hypercarry', 'auto-attack']","['mage', 'marksman']",['specialist'],True,True,False,True
+11,master yi,masteryi,['jungle'],kPhysical,melee,"['auto-attack', 'hypercarry']","['fighter', 'assassin']",['skirmisher'],False,True,True,True
+12,alistar,alistar,['support'],kMagic,melee,"['crowd control', 'initiator']","['tank', 'support']",['vanguard'],True,False,False,False
+13,ryze,ryze,['middle'],kMagic,ranged,"['battlecaster', 'sustained damage']",['mage'],['battlemage'],False,False,False,False
+14,sion,sion,['top'],kPhysical,melee,"['durable', 'crowd control']","['tank', 'fighter']",['vanguard'],False,False,False,False
+15,sivir,sivir,['bottom'],kPhysical,ranged,"['aoe', 'auto-attack']",['marksman'],['marksman'],False,True,True,False
+16,soraka,soraka,['support'],kMagic,ranged,"['ally protection', 'crowd control']","['support', 'mage']",['enchanter'],True,False,False,False
+17,teemo,teemo,['top'],kMagic,ranged,"['damage-over-time', 'stealth']","['marksman', 'mage']",['specialist'],False,True,False,True
+18,tristana,tristana,['bottom'],kPhysical,ranged,"['mobile', 'auto-attack']","['marksman', 'assassin']",['marksman'],False,True,True,True
+19,warwick,warwick,['jungle'],kMixed,melee,"['self healing', 'duelist']","['fighter', 'tank']",['diver'],False,True,False,True
+20,nunu & willump,nunu,['jungle'],kMagic,melee,"['initiator', 'battlecaster']","['tank', 'mage']",['vanguard'],False,False,False,False
+21,miss fortune,missfortune,['bottom'],kPhysical,ranged,"['aoe', 'burst']","['marksman', 'mage']",['marksman'],False,True,True,False
+22,ashe,ashe,"['bottom', 'support']",kPhysical,ranged,"['auto-attack', 'crowd control']","['marksman', 'support']",['marksman'],False,True,True,True
+23,tryndamere,tryndamere,['top'],kPhysical,melee,"['duelist', 'auto-attack']","['fighter', 'assassin']",['skirmisher'],False,False,False,False
+24,jax,jax,"['top', 'jungle']",kPhysical,melee,"['duelist', 'auto-attack']",['fighter'],['skirmisher'],False,True,False,True
+25,morgana,morgana,"['support', 'middle']",kMagic,ranged,"['crowd control', 'ally protection']","['support', 'mage']",['catcher'],False,False,False,False
+26,zilean,zilean,['support'],kMagic,ranged,"['crowd control', 'ally protection']","['support', 'mage']",['specialist'],True,False,False,False
+27,singed,singed,['top'],kMagic,melee,"['battlecaster', 'damage-over-time']","['tank', 'mage']",['specialist'],False,False,False,False
+28,evelynn,evelynn,['jungle'],kMagic,melee,"['stealth', 'burst']","['assassin', 'mage']",['assassin'],False,False,False,False
+29,twitch,twitch,['bottom'],kPhysical,ranged,"['hypercarry', 'stealth']","['marksman', 'assassin']",['marksman'],False,True,True,True
+30,karthus,karthus,['jungle'],kMagic,ranged,"['aoe', 'sustained damage']",['mage'],['battlemage'],False,False,False,False
+31,cho'gath,chogath,['top'],kMagic,melee,"['durable', 'crowd control']","['tank', 'mage']",['specialist'],False,False,False,False
+32,amumu,amumu,['jungle'],kMagic,melee,"['crowd control', 'initiator']","['tank', 'support']",['vanguard'],False,False,False,False
+33,rammus,rammus,['jungle'],kMagic,melee,"['mobile', 'crowd control']",['tank'],['vanguard'],False,False,False,False
+34,anivia,anivia,['middle'],kMagic,ranged,"['aoe', 'crowd control']",['mage'],['battlemage'],False,False,False,False
+35,shaco,shaco,['jungle'],kMixed,melee,"['stealth', 'summon']",['assassin'],['assassin'],False,False,True,False
+36,dr. mundo,drmundo,['top'],kMixed,melee,"['durable', 'self healing']","['tank', 'fighter']",['juggernaut'],False,False,False,False
+37,sona,sona,['support'],kMagic,ranged,"['ally protection', 'crowd control']","['support', 'mage']",['enchanter'],True,False,False,False
+38,kassadin,kassadin,['middle'],kMagic,melee,"['hypercarry', 'mobile']","['assassin', 'mage']",['assassin'],False,False,False,False
+39,irelia,irelia,"['top', 'middle']",kPhysical,melee,"['mobile', 'duelist']","['fighter', 'assassin']",['diver'],False,True,False,True
+40,janna,janna,['support'],kMagic,ranged,"['crowd control', 'ally protection']","['support', 'mage']",['enchanter'],True,False,False,False
+41,gangplank,gangplank,['top'],kPhysical,melee,"['aoe', 'burst']",['fighter'],['specialist'],False,False,True,False
+42,corki,corki,['middle'],kPhysical,ranged,"['auto-attack', 'aoe']","['marksman', 'mage']",['marksman'],False,False,True,False
+43,karma,karma,"['middle', 'support']",kMagic,ranged,"['ally protection', 'aoe']","['mage', 'support']","['burst', 'enchanter']",False,False,False,False
+44,taric,taric,['support'],kMagic,melee,"['durable', 'ally protection']","['support', 'tank']","['enchanter', 'warden']",True,True,False,False
+45,veigar,veigar,['middle'],kMagic,ranged,"['hypercarry', 'burst']",['mage'],['burst'],False,False,False,False
+48,trundle,trundle,['top'],kPhysical,melee,"['duelist', 'self healing']","['fighter', 'tank']",['juggernaut'],False,True,False,False
+50,swain,swain,"['middle', 'support']",kMagic,ranged,"['battlecaster', 'self healing']","['mage', 'support']",['battlemage'],False,False,False,False
+51,caitlyn,caitlyn,['bottom'],kPhysical,ranged,"['auto-attack', 'burst']",['marksman'],['marksman'],False,False,True,False
+53,blitzcrank,blitzcrank,['support'],kMagic,melee,"['initiator', 'crowd control']","['tank', 'support']",['catcher'],False,True,True,False
+54,malphite,malphite,['top'],kMagic,melee,"['initiator', 'crowd control']","['tank', 'mage']",['vanguard'],False,False,False,False
+55,katarina,katarina,['middle'],kMagic,melee,"['mobile', 'burst']","['assassin', 'mage']",['assassin'],False,False,False,True
+56,nocturne,nocturne,['jungle'],kPhysical,melee,"['dive', 'duelist']","['fighter', 'assassin']",['assassin'],False,True,True,False
+57,maokai,maokai,['support'],kMagic,melee,"['initiator', 'crowd control']","['tank', 'support']",['vanguard'],False,False,False,False
+58,renekton,renekton,['top'],kPhysical,melee,"['duelist', 'durable']","['fighter', 'tank']",['diver'],False,False,True,False
+59,jarvan iv,jarvaniv,['jungle'],kPhysical,melee,"['dive', 'crowd control']","['fighter', 'tank']",['diver'],False,True,False,False
+60,elise,elise,['jungle'],kMagic,ranged,"['shapeshift', 'burst']","['assassin', 'mage']",['diver'],False,True,False,False
+61,orianna,orianna,['middle'],kMagic,ranged,"['aoe', 'long range']","['mage', 'support']",['burst'],False,False,False,False
+62,wukong,monkeyking,['jungle'],kPhysical,melee,"['dive', 'aoe']","['fighter', 'tank']",['diver'],False,False,False,False
+63,brand,brand,"['jungle', 'support']",kMagic,ranged,"['damage-over-time', 'aoe']","['mage', 'support']",['burst'],False,False,False,False
+64,lee sin,leesin,['jungle'],kPhysical,melee,"['mobile', 'duelist']","['fighter', 'assassin']",['diver'],False,True,False,False
+67,vayne,vayne,['bottom'],kPhysical,ranged,"['hypercarry', 'stealth']","['marksman', 'assassin']",['marksman'],False,False,False,True
+68,rumble,rumble,['top'],kMagic,melee,"['damage-over-time', 'battlecaster']","['fighter', 'mage']",['battlemage'],False,False,False,False
+69,cassiopeia,cassiopeia,['middle'],kMagic,ranged,"['crowd control', 'sustained damage']",['mage'],['battlemage'],False,False,False,False
+72,skarner,skarner,"['jungle', 'top']",kPhysical,melee,"['crowd control', 'initiator']","['tank', 'fighter']","['vanguard', 'juggernaut']",False,True,False,False
+74,heimerdinger,heimerdinger,['support'],kMagic,ranged,"['summon', 'sustained damage']","['mage', 'support']",['specialist'],False,False,False,False
+75,nasus,nasus,['top'],kPhysical,melee,"['durable', 'hypercarry']","['fighter', 'tank']",['juggernaut'],False,False,True,False
+76,nidalee,nidalee,['jungle'],kMagic,ranged,"['shapeshift', 'mobile']","['assassin', 'mage']",['specialist'],True,False,True,False
+77,udyr,udyr,"['top', 'jungle']",kMixed,melee,"['auto-attack', 'durable']","['fighter', 'tank']",['juggernaut'],False,False,False,True
+78,poppy,poppy,"['top', 'jungle']",kPhysical,melee,"['durable', 'dive']","['tank', 'fighter']",['warden'],False,False,False,False
+79,gragas,gragas,['jungle'],kMagic,melee,"['burst', 'crowd control']","['fighter', 'mage']",['vanguard'],False,False,False,False
+80,pantheon,pantheon,"['top', 'support']",kPhysical,melee,"['dive', 'duelist']","['fighter', 'assassin']",['diver'],False,False,False,False
+81,ezreal,ezreal,['bottom'],kPhysical,ranged,"['long range', 'mobile']","['marksman', 'mage']",['marksman'],False,True,False,False
+82,mordekaiser,mordekaiser,['top'],kMagic,melee,"['duelist', 'sustained damage']","['fighter', 'mage']",['juggernaut'],False,True,False,False
+83,yorick,yorick,['top'],kPhysical,melee,"['summon', 'duelist']","['fighter', 'tank']",['juggernaut'],False,False,False,False
+84,akali,akali,"['top', 'middle']",kMagic,melee,"['mobile', 'burst']",['assassin'],['assassin'],False,False,False,False
+85,kennen,kennen,['top'],kMagic,ranged,"['burst', 'aoe']",['mage'],['specialist'],False,True,False,True
+86,garen,garen,['top'],kPhysical,melee,"['durable', 'sustained damage']","['fighter', 'tank']",['juggernaut'],False,False,True,False
+89,leona,leona,['support'],kMagic,melee,"['initiator', 'crowd control']","['tank', 'support']",['vanguard'],False,False,False,False
+90,malzahar,malzahar,['middle'],kMagic,ranged,"['damage-over-time', 'summon']",['mage'],['battlemage'],False,False,False,False
+91,talon,talon,['middle'],kPhysical,melee,"['mobile', 'burst']",['assassin'],['assassin'],False,False,False,False
+92,riven,riven,['top'],kPhysical,melee,"['mobile', 'duelist']","['fighter', 'assassin']",['skirmisher'],False,False,True,False
+96,kog'maw,kogmaw,['bottom'],kMixed,ranged,"['hypercarry', 'auto-attack']","['marksman', 'mage']",['marksman'],False,True,False,True
+98,shen,shen,['top'],kMixed,melee,"['ally protection', 'duelist']",['tank'],['warden'],False,True,False,False
+99,lux,lux,"['middle', 'support']",kMagic,ranged,"['burst', 'long range']","['mage', 'support']","['burst', 'artillery']",False,False,False,False
+101,xerath,xerath,"['middle', 'support']",kMagic,ranged,"['long range', 'aoe']","['mage', 'support']",['artillery'],False,False,False,False
+102,shyvana,shyvana,['jungle'],kMagic,melee,"['shapeshift', 'aoe']","['fighter', 'mage']",['juggernaut'],False,True,True,True
+103,ahri,ahri,['middle'],kMagic,ranged,"['mobile', 'burst']","['mage', 'assassin']",['burst'],False,False,False,False
+104,graves,graves,['jungle'],kPhysical,ranged,"['burst', 'auto-attack']",['marksman'],['specialist'],False,False,True,False
+105,fizz,fizz,['middle'],kMagic,melee,"['burst', 'mobile']","['assassin', 'fighter']",['assassin'],False,False,False,False
+106,volibear,volibear,['top'],kMixed,melee,"['duelist', 'durable']","['fighter', 'tank']",['juggernaut'],False,True,False,True
+107,rengar,rengar,['jungle'],kPhysical,melee,"['stealth', 'burst']","['assassin', 'fighter']","['assassin', 'diver']",False,True,True,False
+110,varus,varus,['bottom'],kPhysical,ranged,"['long range', 'auto-attack']","['marksman', 'mage']","['marksman', 'artillery']",False,True,False,True
+111,nautilus,nautilus,['support'],kMagic,melee,"['initiator', 'crowd control']","['tank', 'support']",['vanguard'],False,False,False,False
+112,viktor,viktor,['middle'],kMagic,ranged,"['sustained damage', 'aoe']",['mage'],['battlemage'],False,False,True,False
+113,sejuani,sejuani,['jungle'],kMagic,melee,"['crowd control', 'initiator']",['tank'],['vanguard'],False,False,False,False
+114,fiora,fiora,['top'],kPhysical,melee,"['duelist', 'mobile']","['fighter', 'assassin']",['skirmisher'],False,True,True,False
+115,ziggs,ziggs,['bottom'],kMagic,ranged,"['long range', 'aoe']",['mage'],['artillery'],False,False,False,False
+117,lulu,lulu,['support'],kMagic,ranged,"['ally protection', 'crowd control']","['support', 'mage']",['enchanter'],False,False,False,True
+119,draven,draven,['bottom'],kPhysical,ranged,"['auto-attack', 'burst']",['marksman'],['marksman'],False,True,False,False
+120,hecarim,hecarim,['jungle'],kPhysical,melee,"['mobile', 'dive']","['fighter', 'tank']",['diver'],False,False,True,False
+121,kha'zix,khazix,['jungle'],kPhysical,melee,"['burst', 'stealth']",['assassin'],['assassin'],False,False,False,False
+122,darius,darius,['top'],kPhysical,melee,"['duelist', 'self healing']","['fighter', 'tank']",['juggernaut'],False,False,True,False
+126,jayce,jayce,['top'],kPhysical,ranged,"['shapeshift', 'long range']","['fighter', 'marksman']",['artillery'],False,True,True,False
+127,lissandra,lissandra,['middle'],kMagic,ranged,"['crowd control', 'burst']",['mage'],['burst'],False,False,False,False
+131,diana,diana,"['jungle', 'middle']",kMagic,melee,"['burst', 'dive']","['fighter', 'assassin']","['assassin', 'diver']",False,True,False,False
+133,quinn,quinn,['top'],kPhysical,ranged,"['mobile', 'duelist']","['marksman', 'assassin']",['specialist'],False,True,True,False
+134,syndra,syndra,['middle'],kMagic,ranged,"['burst', 'long range']",['mage'],['burst'],False,False,False,False
+136,aurelion sol,aurelionsol,['middle'],kMagic,ranged,"['hypercarry', 'aoe']",['mage'],['battlemage'],False,False,False,False
+141,kayn,kayn,['jungle'],kPhysical,melee,"['mobile', 'dive']","['fighter', 'assassin']",['skirmisher'],False,False,False,False
+142,zoe,zoe,['middle'],kMagic,ranged,"['burst', 'long range']",['mage'],['burst'],False,False,False,False
+143,zyra,zyra,['support'],kMagic,ranged,"['summon', 'crowd control']","['mage', 'support']",['catcher'],False,False,False,False
+145,kai'sa,kaisa,['bottom'],kPhysical,ranged,"['dive', 'auto-attack']","['marksman', 'mage']",['marksman'],False,True,False,True
+147,seraphine,seraphine,"['bottom', 'support']",kMagic,ranged,"['aoe', 'ally protection']","['support', 'mage']","['burst', 'enchanter']",True,False,False,False
+150,gnar,gnar,['top'],kPhysical,ranged,"['shapeshift', 'crowd control']","['fighter', 'tank']",['vanguard'],False,True,False,True
+154,zac,zac,['jungle'],kMagic,melee,"['initiator', 'self healing']","['tank', 'fighter']",['vanguard'],False,False,False,False
+157,yasuo,yasuo,"['top', 'middle', 'bottom']",kPhysical,melee,"['duelist', 'mobile']","['fighter', 'assassin']",['skirmisher'],False,True,True,False
+161,vel'koz,velkoz,['support'],kMagic,ranged,"['long range', 'aoe']","['mage', 'support']",['artillery'],False,False,False,False
+163,taliyah,taliyah,"['jungle', 'middle']",kMagic,ranged,"['crowd control', 'aoe']","['mage', 'support']",['battlemage'],False,False,False,False
+164,camille,camille,['top'],kPhysical,melee,"['dive', 'duelist']","['fighter', 'assassin']",['diver'],False,True,False,False
+166,akshan,akshan,['middle'],kPhysical,ranged,"['mobile', 'stealth']","['marksman', 'assassin']","['marksman', 'assassin']",False,False,True,True
+200,bel'veth,belveth,['jungle'],kPhysical,melee,"['auto-attack', 'mobile']",['fighter'],['skirmisher'],False,True,True,False
+201,braum,braum,['support'],kMagic,melee,"['durable', 'crowd control']","['tank', 'support']",['warden'],False,False,False,True
+202,jhin,jhin,['bottom'],kPhysical,ranged,"['long range', 'burst']","['marksman', 'mage']","['marksman', 'catcher']",False,False,True,False
+203,kindred,kindred,['jungle'],kPhysical,ranged,"['auto-attack', 'mobile']",['marksman'],['marksman'],False,True,True,True
+221,zeri,zeri,['bottom'],kPhysical,ranged,"['mobile', 'burst']",['marksman'],['marksman'],False,True,True,False
+222,jinx,jinx,['bottom'],kPhysical,ranged,"['auto-attack', 'hypercarry']",['marksman'],['marksman'],False,True,True,False
+223,tahm kench,tahmkench,['top'],kMagic,melee,"['crowd control', 'ally protection']","['tank', 'support']",['warden'],False,False,False,False
+233,briar,briar,['jungle'],kPhysical,melee,"['self healing', 'dive']","['fighter', 'assassin']",['diver'],False,True,True,False
+234,viego,viego,['jungle'],kPhysical,melee,"['shapeshift', 'duelist']","['fighter', 'assassin']",['skirmisher'],False,True,True,False
+235,senna,senna,"['bottom', 'support']",kPhysical,ranged,"['auto-attack', 'ally protection']","['support', 'marksman']","['marksman', 'enchanter']",True,False,True,False
+236,lucian,lucian,['bottom'],kPhysical,ranged,"['mobile', 'burst']","['marksman', 'assassin']",['marksman'],False,False,True,False
+238,zed,zed,['middle'],kPhysical,melee,"['burst', 'mobile']",['assassin'],['assassin'],False,False,False,False
+240,kled,kled,['top'],kPhysical,melee,"['dive', 'duelist']",['fighter'],['skirmisher'],False,True,False,False
+245,ekko,ekko,"['jungle', 'middle']",kMagic,melee,"['burst', 'mobile']","['assassin', 'mage']",['assassin'],False,False,False,False
+246,qiyana,qiyana,['middle'],kPhysical,melee,"['burst', 'mobile']",['assassin'],['assassin'],False,True,False,False
+254,vi,vi,['jungle'],kPhysical,melee,"['dive', 'auto-attack']","['fighter', 'assassin']",['diver'],False,True,True,False
+266,aatrox,aatrox,['top'],kPhysical,melee,"['sustained damage', 'self healing']",['fighter'],['juggernaut'],False,False,False,False
+267,nami,nami,['support'],kMagic,ranged,"['ally protection', 'crowd control']","['support', 'mage']",['enchanter'],True,False,False,False
+268,azir,azir,['middle'],kMagic,ranged,"['hypercarry', 'auto-attack']","['mage', 'marksman']",['specialist'],False,False,False,False
+350,yuumi,yuumi,['support'],kMagic,ranged,"['ally protection', 'aoe']","['support', 'mage']",['enchanter'],True,False,True,False
+360,samira,samira,['bottom'],kPhysical,ranged,"['aoe', 'dive']","['marksman', 'assassin']",['marksman'],False,True,True,False
+412,thresh,thresh,['support'],kMagic,ranged,"['initiator', 'ally protection']","['support', 'tank']",['catcher'],False,False,False,False
+420,illaoi,illaoi,['top'],kPhysical,melee,"['self healing', 'duelist']","['fighter', 'tank']",['juggernaut'],False,False,False,False
+421,rek'sai,reksai,['jungle'],kPhysical,melee,"['mobile', 'dive']","['fighter', 'tank']",['diver'],False,True,True,False
+427,ivern,ivern,['jungle'],kMagic,ranged,"['summon', 'ally protection']","['support', 'mage']",['catcher'],False,False,False,False
+429,kalista,kalista,['bottom'],kPhysical,ranged,"['mobile', 'auto-attack']",['marksman'],['marksman'],False,False,False,True
+432,bard,bard,['support'],kMagic,ranged,"['crowd control', 'mobile']","['support', 'mage']",['catcher'],True,False,False,True
+497,rakan,rakan,['support'],kMagic,melee,"['mobile', 'crowd control']",['support'],['catcher'],True,False,False,False
+498,xayah,xayah,['bottom'],kPhysical,ranged,"['aoe', 'auto-attack']",['marksman'],['marksman'],False,True,True,False
+516,ornn,ornn,['top'],kMagic,melee,"['initiator', 'crowd control']",['tank'],['vanguard'],False,False,False,False
+517,sylas,sylas,['middle'],kMagic,melee,"['duelist', 'battlecaster']","['mage', 'assassin']","['burst', 'skirmisher']",False,True,True,False
+518,neeko,neeko,"['middle', 'support']",kMagic,ranged,"['aoe', 'burst']","['mage', 'support']","['burst', 'catcher']",False,False,False,True
+523,aphelios,aphelios,['bottom'],kPhysical,ranged,"['hypercarry', 'auto-attack']",['marksman'],['marksman'],False,True,True,False
+526,rell,rell,['support'],kMagic,melee,"['crowd control', 'initiator']","['tank', 'support']",['vanguard'],False,False,False,False
+555,pyke,pyke,['support'],kPhysical,melee,"['mobile', 'stealth']","['support', 'assassin']","['assassin', 'catcher']",False,False,False,False
+711,vex,vex,['middle'],kMagic,ranged,"['burst', 'crowd control']",['mage'],['burst'],False,False,False,False
+777,yone,yone,"['top', 'middle']",kPhysical,melee,"['mobile', 'duelist']","['fighter', 'assassin']","['assassin', 'skirmisher']",False,True,True,False
+799,ambessa,ambessa,['top'],kPhysical,melee,"['mobile', 'dive']","['fighter', 'assassin']","['diver', 'skirmisher']",False,True,False,False
+800,mel,mel,"['middle', 'support']",kMagic,ranged,"['long range', 'aoe']","['mage', 'support']",['artillery'],False,False,False,False
+804,yunara,yunara,['bottom'],kPhysical,ranged,"['auto-attack', 'sustained damage']",['marksman'],['marksman'],False,True,True,False
+875,sett,sett,['top'],kPhysical,melee,"['duelist', 'durable']","['fighter', 'tank']",['juggernaut'],False,False,False,False
+876,lillia,lillia,['jungle'],kMagic,melee,"['mobile', 'damage-over-time']","['fighter', 'mage']",['skirmisher'],False,False,False,False
+887,gwen,gwen,['top'],kMagic,melee,"['sustained damage', 'duelist']",['fighter'],['skirmisher'],False,True,False,False
+888,renata glasc,renata,['support'],kMagic,ranged,"['crowd control', 'ally protection']","['support', 'mage']",['enchanter'],False,False,False,False
+893,aurora,aurora,"['middle', 'top']",kMagic,ranged,"['burst', 'stealth']","['mage', 'assassin']","['burst', 'assassin']",False,False,False,False
+895,nilah,nilah,['bottom'],kPhysical,melee,"['auto-attack', 'aoe']","['fighter', 'assassin']",['skirmisher'],True,True,True,False
+897,k'sante,ksante,['top'],kPhysical,melee,"['durable', 'duelist']","['tank', 'fighter']","['warden', 'skirmisher']",False,True,False,False
+901,smolder,smolder,['bottom'],kPhysical,ranged,"['hypercarry', 'aoe']","['marksman', 'mage']",['marksman'],False,False,True,False
+902,milio,milio,['support'],kMagic,ranged,"['ally protection', 'aoe']","['support', 'mage']",['enchanter'],True,False,False,False
+904,zaahen,zaahen,"['top', 'jungle']",kPhysical,melee,"['', '']","['fighter', 'assassin']",['skirmisher'],False,False,True,False
+910,hwei,hwei,"['middle', 'support']",kMagic,ranged,"['aoe', 'long range']","['mage', 'support']",['artillery'],False,False,False,False
+950,naafiri,naafiri,['middle'],kPhysical,melee,"['summon', 'mobile']","['assassin', 'fighter']",['assassin'],False,False,False,False
