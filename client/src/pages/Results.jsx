@@ -14,13 +14,13 @@ function Results() {
 
     {/* Validate champ */}
     useEffect(() => {
-        fetch(apiUrl("/api/search", {
+        fetch(apiUrl("/api/search"), {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ champName: champId }),
-        }))
+        })
             .then(r => r.json())
             .then((data) => {
                 if (data.error || champId == null) {
