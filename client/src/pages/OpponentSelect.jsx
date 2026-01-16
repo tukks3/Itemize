@@ -39,7 +39,7 @@ function OpponentSelect({ result, setResult }) {
         <div className="os-container">
             <h2 className="os-select_title">Select Your Opponents</h2>
 
-            <img className="os-champ_icon" key={champ} src={`/api/champ_icons/${champ}.png`} loading="lazy" width={48} height={48} alt="champ icon" /> {/* Champ icon */}
+            <img className="os-champ_icon" key={champ} src={apiUrl(`/api/champ_icons/${champ}.png`)} loading="lazy" width={48} height={48} alt="champ icon" /> {/* Champ icon */}
             <SearchOpp result={result} setResult={setResult} error={error} setError={setError}/> {/* Search bar */}
             <AllOppsGrid result={result} setResult={setResult} error={error} setError={setError}/> {/* Enemy select table */}
             <OppTeamIcons result={result} setResult={setResult} /> {/* Enemy team portraits */}

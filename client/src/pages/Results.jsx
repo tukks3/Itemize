@@ -55,7 +55,7 @@ function Results() {
 
     return (
         <div className="r-container">
-            <img className="r-champ_image" src={`api/champ_icons/${champId}.png`}/>
+            <img className="r-champ_image" src={apiUrl(`api/champ_icons/${champId}.png`)}/>
 
             <ResultOppTeamIcons oppTeam={oppTeam}/>
 
@@ -69,14 +69,14 @@ function Results() {
                 </thead><tbody>
                     {rows.map((row, i) => (
                         <tr className="r-table_body_rows" key={row.item_id ?? i}>
-                            <td className="r-table_item_img_container"><img className="table_item_img"key={row.item_icon_url} src={row.item_icon_url} loading="lazy" width={48} height={48}></img></td>
+                            <td className="r-table_item_img_container"><img className="table_item_img"key={row.item_icon_url} src={apiUrl(row.item_icon_url)} loading="lazy" width={48} height={48}></img></td>
                             <td className="r-prio_row">{row.priority}</td>
                             <td>
                                 <div className="r-good_against_row">
                                     {Object.entries(row.counters ?? {}).map(([key]) => (
                                         <img
                                             key={key}
-                                            src={`api/champ_icons/${key}.png`}
+                                            src={apiUrl(`api/champ_icons/${key}.png`)}
                                             alt={key}
                                             loading="lazy"
                                             width={48}
