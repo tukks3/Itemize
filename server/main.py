@@ -18,14 +18,11 @@ app = Flask(__name__)
 
 CORS(
     app,
-    resources={r"/api/*": {
-        "origins": [
-            "http://itemize-git-main-tukks3s-projects.vercel.app",
-            "http://localhost:5173"
-        ]
-    }}
+    resources={r"/api/*": {"origins": [
+        "https://itemize-rouge.vercel.app",
+        "http://localhost:5173",
+    ]}}
 )
-
 
 @app.route('/api/listAllChamps')
 def list_all_champs():
