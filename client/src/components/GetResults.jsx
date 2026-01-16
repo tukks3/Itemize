@@ -2,7 +2,7 @@ import{ apiUrl } from "../components/Api";
 
 async function GetResults(champId, oppTeam) {
 
-    const res = await fetch(apiUrl("/api/getResults", {
+    const res = await fetch(apiUrl("/api/getResults"), {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -11,7 +11,7 @@ async function GetResults(champId, oppTeam) {
             champId,
             oppTeam,
         }),
-    }));
+    });
     const data = await res.json();
     return data;
 }
