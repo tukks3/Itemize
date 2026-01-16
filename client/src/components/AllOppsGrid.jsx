@@ -30,7 +30,7 @@ function AllOppsGrid({ result, setResult, error, setError }) {
         const oppId = url.split("/").at(-1).replace(".png", "");
 
         try {
-            const res = await fetch(apiUrl("/api/validTeam", {
+            const res = await fetch(apiUrl("/api/validTeam"), {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -38,7 +38,7 @@ function AllOppsGrid({ result, setResult, error, setError }) {
                     oppTeam: result.opponents,
                     oppName: oppId,
                 }),
-            }));
+            });
 
             const data = await res.json();
             if (!res.ok) throw new Error(data.error || "Request failed");
