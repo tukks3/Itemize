@@ -5,7 +5,7 @@ import { useState } from "react";
 import "./Results.css";
 import GetResults from "../components/GetResults";
 import ResultOppTeamIcons from "../components/ResultOppTeamIcons";
-
+import{ apiUrl } from "../components/Api";
 
 function Results() {
 
@@ -14,13 +14,13 @@ function Results() {
 
     {/* Validate champ */}
     useEffect(() => {
-        fetch("/api/search", {
+        fetch(apiUrl("/api/search", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ champName: champId }),
-        })
+        }))
             .then(r => r.json())
             .then((data) => {
                 if (data.error || champId == null) {

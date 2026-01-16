@@ -7,6 +7,7 @@ import SearchOpp from "../components/SearchOpp";
 import AllOppsGrid from "../components/AllOppsGrid";
 import OppTeamIcons from "../components/OppTeamIcons";
 import SubmitOpps from "../components/SubmitOpps";
+import{ apiUrl } from "../components/Api";
 
 
 
@@ -18,13 +19,13 @@ function OpponentSelect({ result, setResult }) {
 
 
     useEffect(() => {
-        fetch("/api/search", {
+        fetch(apiUrl("/api/search", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ champName: champ }),
-        })
+        }))
             .then(r => r.json())
             .then((data) => {
                 if (data.error || champ == null) {
