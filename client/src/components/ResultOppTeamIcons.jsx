@@ -13,7 +13,7 @@ function ResultOppTeamIcons({ oppTeam }) {
                     url ? (
                         <div key={url} className="r-opp_icon_container">
                             <img
-                                src={url}
+                                src={apiUrl(url)}
                                 loading="lazy"
                                 width={48}
                                 height={48}

@@ -26,7 +26,7 @@ function OppTeamIcons({ result, setResult }) {
                         <div className="os-opp_icon_container">
                             <img
                                 key={url}
-                                src={url}
+                                src={apiUrl(url)}
                                 loading="lazy"
                                 width={48}
                                 height={48}
