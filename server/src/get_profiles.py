@@ -79,6 +79,8 @@ class ItemProfile:
                 stats.append(j)
         if "MagicPenetration" in i["categories"] and PERCENT_MP not in i["description"]:
             stats.append("FlatMagicPenetration")
+        if "Lethality" in stats and "ArmorPenetration" in stats:
+            stats.remove("ArmorPenetration")
         return stats
 
 
