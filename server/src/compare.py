@@ -130,3 +130,4 @@ class Compare:
         return stat_lookup
 
 
+# Need to use literal eval because row['counters'] is a string 
