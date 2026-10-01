@@ -13,7 +13,7 @@ def get_champ_icons():
      url = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/"
      try:
           response = requests.get(url)
-          response.raise_for_status
+          response.raise_for_status()
           soup = BeautifulSoup(response.text, "html.parser")
 
 
